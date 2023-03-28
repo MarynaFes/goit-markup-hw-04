@@ -313,10 +313,6 @@ button {cursor: pointer;}
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
-.customers-menu-item:hover,
-.customers-menu-item:focus {
-    border-color: var(--pressed-state);
-}
 .customers-menu-icon {
     fill: #8E8F99;
 }
@@ -326,6 +322,7 @@ button {cursor: pointer;}
 .customers-menu-link:hover .customers-menu-icon,
 .customers-menu-link:focus .customers-menu-icon {
     fill: var(--pressed-state);
+    border-color: var(--pressed-state)
 }
 /*=====================PORTFOLIO=======================*/
 .projects-section {
