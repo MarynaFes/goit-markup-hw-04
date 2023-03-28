@@ -290,8 +290,7 @@ button {cursor: pointer;}
 }
 .social-menu-link:hover,
 .social-menu-link:focus {
-    background-color: var(--success);
-}
+    background-color: var(--pressed-state)}
 .social-menu-icon {
     fill: #F4F4FD;
 }
