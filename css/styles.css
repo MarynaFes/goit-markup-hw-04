@@ -319,10 +319,13 @@ button {cursor: pointer;}
 .customers-menu-link {
     display: block;
 }
-.customers-menu-link:hover .customers-menu-icon,
-.customers-menu-link:focus .customers-menu-icon {
+.customers-menu-item:hover,
+.customers-menu-item:focus {
+    border-color: var(--pressed-state);
+}
+.customers-menu-item:hover .customers-menu-icon,
+.customers-menu-item:focus .customers-menu-icon {
     fill: var(--pressed-state);
-    border-color: var(--pressed-state)
 }
 /*=====================PORTFOLIO=======================*/
 .projects-section {
