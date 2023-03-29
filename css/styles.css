@@ -279,13 +279,17 @@ button {cursor: pointer;}
     justify-content: center;
     gap: 24px;
 }
+.social-menu-item {
+    width: 40px;
+    height: 40px;
+}
 .social-menu-link {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #4D5AE5;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 .social-menu-link:hover,
@@ -304,9 +308,6 @@ button {cursor: pointer;}
     gap: 24px;
 }
 .customers-menu-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
@@ -316,7 +317,11 @@ button {cursor: pointer;}
     fill: #8E8F99;
 }
 .customers-menu-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .customers-menu-item:hover,
 .customers-menu-item:focus {
@@ -405,7 +410,7 @@ button {cursor: pointer;}
 .footer-copy {
     line-height: 1.5;
     color: var(--light);
-    max-width: 264px;}
+    width: 264px;}
 .footer-logotype {
     margin-bottom: 16px;}
 .logotype > .page-footer-container {
@@ -423,13 +428,17 @@ button {cursor: pointer;}
     justify-content: left;
     gap: 16px;
 }
+.social-media-item {
+    width: 40px;
+    height: 40px;
+}
 .social-media-item-link {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #4D5AE5;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 .social-media-item-link:hover,
